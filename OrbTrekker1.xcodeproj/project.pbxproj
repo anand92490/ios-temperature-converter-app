@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		327BAB67292C1D60009F22CC /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 327BAB66292C1D60009F22CC /* MapKit.framework */; };
+		327BAB6B292C2218009F22CC /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 327BAB6A292C2218009F22CC /* MapViewController.swift */; };
 		32A9D5FE291F2DBC0041467B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A9D5FD291F2DBC0041467B /* AppDelegate.swift */; };
 		32A9D600291F2DBC0041467B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32A9D5FF291F2DBC0041467B /* SceneDelegate.swift */; };
 		32A9D605291F2DBC0041467B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32A9D603291F2DBC0041467B /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		327BAB66292C1D60009F22CC /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		327BAB6A292C2218009F22CC /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		32A9D5FA291F2DBC0041467B /* OrbTrekker1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrbTrekker1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32A9D5FD291F2DBC0041467B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32A9D5FF291F2DBC0041467B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327BAB67292C1D60009F22CC /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		327BAB65292C1D60009F22CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				327BAB66292C1D60009F22CC /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32A9D5F1291F2DBC0041467B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +96,7 @@
 				32A9D613291F2DBE0041467B /* OrbTrekker1Tests */,
 				32A9D61D291F2DBE0041467B /* OrbTrekker1UITests */,
 				32A9D5FB291F2DBC0041467B /* Products */,
+				327BAB65292C1D60009F22CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +113,7 @@
 		32A9D5FC291F2DBC0041467B /* OrbTrekker1 */ = {
 			isa = PBXGroup;
 			children = (
+				327BAB6A292C2218009F22CC /* MapViewController.swift */,
 				32A9D5FD291F2DBC0041467B /* AppDelegate.swift */,
 				32A9D5FF291F2DBC0041467B /* SceneDelegate.swift */,
 				32A9D603291F2DBC0041467B /* Main.storyboard */,
@@ -261,6 +276,7 @@
 				32A9D5FE291F2DBC0041467B /* AppDelegate.swift in Sources */,
 				32A9D62E2922E21B0041467B /* ConversionViewController.swift in Sources */,
 				32A9D600291F2DBC0041467B /* SceneDelegate.swift in Sources */,
+				327BAB6B292C2218009F22CC /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
